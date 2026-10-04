@@ -1,0 +1,8 @@
+name = input("What is your name? ")
+age = (input("What is your age? "))
+height = (input("What is your height (in centimetres)? "))
+# print("Hi, your name is ", name, ", your age is ", age, " and your height in centimetres is ", height)
+print(F"Hi, your name is {name} \nYour age is {age} \nYour height in centimetres is {height}")
+print(F"Hi, your name is {name}", end =  "\t")
+print(F"Your age is {age}", end =  "*****")
+print(F"Your height is {height}", end =  "\t")
